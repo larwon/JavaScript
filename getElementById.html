@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id='apple'>This is apple</p>
+    <button type='button' onclick="document.getElementById('apple').innerHTML = 'This is not apple'">Click[1]</button>
+
+    <p id='banana'>This is banana</p>
+    <button type='button' onclick="document.getElementById('banana').style.fontSize = '35px'">Click[2]</button>
+
+    
+    <p id='banana'>This is banana</p>
+    <button type='button' onclick="document.getElementById('banana').style.display = 'none'">Click[3]</button>
+
+    <p id="banana" style="display:none">This is banana</p>
+    <button type='button' onclick="document.getElementById('banana').style.display = 'block'">Click[4]</button>
+    
+</body>
+</html>
